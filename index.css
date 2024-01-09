@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
 
 /*css reset*/
 * {
@@ -339,7 +341,7 @@ span {
 }
 
 .heading {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     text-align: center;
 }
 
@@ -400,6 +402,15 @@ span {
     opacity: .5;
 }
 
+.eng::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: var(--text-color);
+    margin: 30px 0;
+    opacity: .5;
+}
+
 .languages p{
     font-size: 1.8rem;
     font-weight: 700;
@@ -412,7 +423,7 @@ span {
     display: flex;
     gap: 2rem;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.2);
+background: rgba(255, 255, 255, 0.2);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
@@ -422,8 +433,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 .education:hover {
 transition: all 3s ease-in-out;
-    /* justify-content: center; */
-    background:var(--magic-color);
+background:var(--magic-color);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
@@ -440,12 +450,27 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     margin-top: 8%;
 }
 
+.school-logo:hover{
+    transition: all 1s ease-in-out;
+    border-radius: 50%;
+}
+
 .school-logo img{
     width: 14rem;
     height: 14rem;
     margin-left: 3px;
     margin-top: 3px;
+    filter:drop-shadow(16px, 7px 8px blue);
     /* margin: auto; */
+}
+
+.school-logo img:hover{
+    transition: all 1s ease-in-out;
+    border-radius: 50%;
+    width: 13rem;
+    height: 13rem;
+    margin-left: 7px;
+    margin-top: 6px;
 }
 
 .education .school-info {
@@ -466,5 +491,171 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 .school-info p{
     font-size: 1.6rem;
     font-weight: 400;
+}
+
+/*skills section goes here*/
+.skills {
+    /* display: flex;
+    flex-direction: column; */
+    /* background: #0b061f; */
+}
+
+.skills .skills-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-container .languages{  
+    margin-top: 50px; 
+    background: #fdfdfd;
+    width: 100%;
+    height: 28rem;
+    box-shadow: 0 4px 30px 0 var(--main-color);
+}
+
+.languages h2{
+    font-size: 4rem;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300;
+    margin: 2.5rem 3rem;
+}
+
+.languages h2::after{
+    content: "";
+    display: block;
+    height: 1px;
+    background: var(--text-color);
+    margin: 22px 0;
+    opacity: .5;
+}
+
+.languages .lang-logo{
+    display: flex;
+    justify-content: left;
+    gap: 10rem;
+    margin-left: 6rem;
+}
+
+.lang-logo img{
+    width: 9rem;
+    height: 9rem;
+}
+
+.lang-logo .javascript, .typescript, 
+.html5, .css3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-logo p{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300;
+    margin-top: 12px;
+    font-size: 2rem;
+
+}
+
+.skills-container .frameworks{  
+    margin-top: 50px; 
+    background: #fdfdfd;
+    width: 100%;
+    height: 28rem;
+    box-shadow: 0 4px 30px 0 var(--main-color);
+}
+
+.frameworks h2{
+    font-size: 4rem;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300;
+    margin: 2.5rem 3rem;
+}
+
+.frameworks h2::after{
+    content: "";
+    display: block;
+    height: 1px;
+    background: var(--text-color);
+    margin: 22px 0;
+    opacity: .5;
+}
+
+.frameworks .frame-logo{
+    display: flex;
+    justify-content: left;
+    gap: 10rem;
+    margin-left: 6rem;
+}
+
+.frame-logo img{
+    width: 9rem;
+    height: 9rem;
+}
+
+.frame-logo .react, .vue, 
+.angular, .bootstrap, .tailwind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-logo p{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300;
+    margin-top: 12px;
+    font-size: 2rem;
+}
+
+.skills-container .tools{  
+    margin-top: 50px; 
+    background: #fdfdfd;
+    width: 100%;
+    height: 28rem;
+    box-shadow: 0 4px 30px 0 var(--main-color);
+}
+
+.tools h2{
+    font-size: 4rem;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300;
+    margin: 2.5rem 3rem;
+}
+
+.tools h2::after{
+    content: "";
+    display: block;
+    height: 1px;
+    background: var(--text-color);
+    margin: 22px 0;
+    opacity: .5;
+}
+
+.tools .tools-logo{
+    display: flex;
+    justify-content: left;
+    gap: 8rem;
+    margin-left: 6rem;
+}
+
+.tools-logo img{
+    width: 9rem;
+    height: 9rem;
+}
+
+.tools-logo .git, .github, 
+.vscode, .codesandbox, .figma, .canva {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tools-logo p{
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300;
+    margin-top: 12px;
+    font-size: 2rem;
 }
 
