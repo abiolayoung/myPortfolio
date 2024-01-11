@@ -1175,7 +1175,7 @@ a .fa-github-alt{
             background: var(--bg-color);
             border-top: .1rem solid rgba(0, 0, 0, .2);
             box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-            display: none;  /*this part is important in my code*/
+            display: none; /* this part is important in my code */
         }
 
         .navbar.active {
@@ -1458,3 +1458,37 @@ a .fa-github-alt{
         border-radius: 20px;
     }
 }
+
+/*additional css for javascript*/
+@media screen and (max-width: 768px) {
+    .header {
+      background: white;
+    }
+    .navbar {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 65px;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: white;
+      z-index: 1;
+    }
+  
+    .navbar.show {
+      display: flex;
+    }
+  
+    .navbar a {
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      color: #00555a;
+    }
+  }
+  
+  .header.scrolled {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
