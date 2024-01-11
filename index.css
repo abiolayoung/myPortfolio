@@ -1418,6 +1418,10 @@ a .fa-github-alt{
         margin-left: 2rem;
        }
 
+       .projects .legend{
+        width: 30%;
+       }
+
        .footer {
         flex-direction: column-reverse;
     }
@@ -1449,7 +1453,8 @@ a .fa-github-alt{
     .home-content h1 {
         font-size: 4.5rem;
     }
-}
-img {
-    border-radius: 20px;
+
+    img {
+        border-radius: 20px;
+    }
 }
