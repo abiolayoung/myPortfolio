@@ -101,7 +101,7 @@ body {
     opacity: .7;
 }
 
-.fa-moon {
+.fa-moon, .fa-sun {
     font-size: 2.4rem;
     color: var(--white-color);
     cursor: pointer;
