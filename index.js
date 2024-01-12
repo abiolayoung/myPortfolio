@@ -41,12 +41,14 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener('DOMContentLoaded', function () {
     const themeToggle = document.querySelector('.fa-moon');
     const body = document.body;
+  
+    const lightMode = document.getElementById("lightmode-img");
+    const darkMode = document.getElementById("darkmode-img");
+
 
     themeToggle.addEventListener('click', function () {
         body.classList.toggle('dark-mode');
         const isDarkMode = body.classList.contains('dark-mode');
-
-        
         
         if (isDarkMode) {
             themeToggle.classList.remove('fa-moon');
