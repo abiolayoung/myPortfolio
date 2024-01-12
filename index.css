@@ -34,6 +34,7 @@
     --bg-color: #0b061f;
     --text-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .7);
+    --main-color: rgb(126, 231, 135);
 }
 
 html {
@@ -165,7 +166,7 @@ section {
   .home-content .track .slidein {
     display: inline-block;
     white-space: nowrap;
-    color: #00555A;
+    color: var(--main-color);
     font-weight: 600;
     animation: slideIn 5s linear infinite;
   }
