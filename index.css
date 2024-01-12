@@ -1349,6 +1349,10 @@ a .fa-github-alt{
 .tools h2, .cms h2{
     font-size: 3rem;
 }   
+
+.dark-mode .header {
+    background-color: #0b061f;
+}
 }
 
 @media (max-width: 580px){
