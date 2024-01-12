@@ -55,4 +55,25 @@ document.addEventListener("DOMContentLoaded", function () {
         navbar.classList.remove("show");
       }
     });
+
   });
+  document.addEventListener('DOMContentLoaded', function () {
+    const themeToggle = document.querySelector('.fa-moon');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', function () {
+        body.classList.toggle('dark-mode');
+        const isDarkMode = body.classList.contains('dark-mode');
+        
+    
+        if (isDarkMode) {
+            themeToggle.classList.remove('fa-moon');
+            themeToggle.classList.add('fa-sun');
+        } else {
+            themeToggle.classList.remove('fa-sun');
+            themeToggle.classList.add('fa-moon');
+        }
+    });
+});
+
+
