@@ -824,7 +824,7 @@ a .fa-github-alt{
     top: 100%;
     /* padding:0 20px 20px 0; */
     font-size: 2.5rem;
-    color: #00555A;
+    color: var(--main-color);
     padding:0 7px 5px 0;
     /* transform: translateX(32rem) translateY(-1rem); */
     margin: 0;
@@ -1502,5 +1502,8 @@ a .fa-github-alt{
   }
   
   .dark-mode .header.scrolled {
-    background-color: #0b061f; /* Set your desired background color for scrolled header in dark mode */
+    background-color: #0b061f; 
+    color: var(--magic-color);/* Set your desired background color for scrolled header in dark mode */
 }
+
+
