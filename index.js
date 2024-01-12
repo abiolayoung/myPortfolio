@@ -1,22 +1,3 @@
-/*========== menu icon navbar ==========*/
-// let menuIcon = document.querySelector('.fa-solid.fa-bars');
-// let navbar = document.querySelector('.navbar');
-
-// menuIcon.oneclick =()=>{
-//     menuIcon.classList.toggle();
-    // navbar.classList.toggle('active');
-// }
-
-/*========== sticky navbar ==========*/
-// let header = document.querySelector('.header');
-
-// header.classList.toggle('sticky', window.scrollY > 100);
-// let darkModeIcon = document.querySelector('fa-regular fa-moon');
-
-// darkModeIcon.onclick = () => {
-//     darkModeIcon.classList.toggle('fa_sun');
-//     document.body.classList.toggle('dark-mode');
-// };
 
 document.addEventListener("DOMContentLoaded", function () {
     const navbar = document.querySelector(".navbar");
@@ -64,8 +45,9 @@ document.addEventListener("DOMContentLoaded", function () {
     themeToggle.addEventListener('click', function () {
         body.classList.toggle('dark-mode');
         const isDarkMode = body.classList.contains('dark-mode');
+
         
-    
+        
         if (isDarkMode) {
             themeToggle.classList.remove('fa-moon');
             themeToggle.classList.add('fa-sun');

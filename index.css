@@ -23,6 +23,7 @@
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
     --magic-color: rgb(126, 231, 135);
+    
 }
 
 *::selection {
@@ -347,6 +348,8 @@ span {
 
 .about-img img{
     width: 20vw;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading {
@@ -773,7 +776,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .portfolio-upper a{
-    color: #00555A;
+    color: var(--main-color);
 }
 a:hover{
     text-decoration: underline 1.5px solid;
