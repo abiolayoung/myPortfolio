@@ -353,6 +353,10 @@ span {
     border-radius: 15px;
 }
 
+#darkmode-img {
+    display: none;
+}
+
 .heading {
     font-size: 3.5rem;
     text-align: center;
@@ -527,13 +531,14 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 300;
     margin: 2.5rem 3rem;
+    color: #0b061f;
 }
 
 .languages h2::after{
     content: "";
     display: block;
     height: 1px;
-    background: var(--text-color);
+    background: #0b061f;
     margin: 22px 0;
     opacity: .5;
 }
@@ -563,6 +568,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-weight: 300;
     margin-top: 12px;
     font-size: 2rem;
+    color: #0b061f;
 
 }
 
@@ -580,13 +586,14 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 300;
     margin: 2.5rem 3rem;
+    color: #0b061f;
 }
 
 .frameworks h2::after{
     content: "";
     display: block;
     height: 1px;
-    background: var(--text-color);
+    background:#0b061f;
     margin: 22px 0;
     opacity: .5;
 }
@@ -616,6 +623,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-weight: 300;
     margin-top: 12px;
     font-size: 2rem;
+    color:#0b061f;
 }
 
 .skills-container .tools{  
@@ -632,13 +640,14 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 300;
     margin: 2.5rem 3rem;
+    color: #0b061f;
 }
 
 .tools h2::after{
     content: "";
     display: block;
     height: 1px;
-    background: var(--text-color);
+    background: #0b061f;
     margin: 22px 0;
     opacity: .5;
 }
@@ -668,6 +677,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-weight: 300;
     margin-top: 12px;
     font-size: 2rem;
+    color: #0b061f;
 }
 
 .skills-container .cms{  
@@ -684,13 +694,14 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 300;
     margin: 2.5rem 3rem;
+    color: #0b061f;
 }
 
 .cms h2::after{
     content: "";
     display: block;
     height: 1px;
-    background: var(--text-color);
+    background: #0b061f;
     margin: 22px 0;
     opacity: .5;
 }
@@ -719,6 +730,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     font-weight: 300;
     margin-top: 12px;
     font-size: 2rem;
+    color: #0b061f;
 
 }
 
