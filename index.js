@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const menuIcon = document.querySelector(".fa-solid.fa-bars");
     var header = document.querySelector(".header");
     var navLinks = document.querySelectorAll(".navbar a");
+    // const lightMode = document.getElementById("lightmode-img");
+    // const darkMode = document.getElementById("darkmode-img");
   
     function handleScroll() {
       var scrollPosition = window.scrollY || document.documentElement.scrollTop;
@@ -53,9 +55,13 @@ document.addEventListener("DOMContentLoaded", function () {
         if (isDarkMode) {
             themeToggle.classList.remove('fa-moon');
             themeToggle.classList.add('fa-sun');
+            lightMode.style.display = "none";
+            darkMode.style.display = "block";
         } else {
             themeToggle.classList.remove('fa-sun');
             themeToggle.classList.add('fa-moon');
+            lightMode.style.display = "block";
+            darkMode.style.display = "none";
         }
     });
 });

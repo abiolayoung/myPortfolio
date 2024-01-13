@@ -346,10 +346,11 @@ span {
     gap: 4rem;
 }
 
-.about-img img{
+.about-img #lightmode-img, #darkmode-img{
     width: 20vw;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
 }
 
 .heading {
