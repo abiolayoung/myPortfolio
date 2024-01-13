@@ -1339,9 +1339,9 @@ a .fa-github-alt{
     margin-top: 1rem;
 }
 
-.about-img img {
+.about-img #lightmode-img, #darkmode-img{
     width: 70vw;
-    margin-top: -2rem;
+    margin-top: 1.5rem;
 }
 
 .recent-projects .firstrow, .secondrow{
@@ -1518,8 +1518,3 @@ a .fa-github-alt{
     background-color: #0b061f; 
     color: var(--magic-color);/* Set your desired background color for scrolled header in dark mode */
 }
-
-/* .dark-mode .navbar {
-    background: #0b061f;
-} */
-
