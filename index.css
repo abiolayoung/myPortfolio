@@ -23,6 +23,8 @@
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
     --magic-color: rgb(126, 231, 135);
+    --form-color: var(--white-color);
+    --form-text: black;
     
 }
 
@@ -36,6 +38,8 @@
     --text-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .7);
     --main-color: rgb(126, 231, 135);
+    --form-color: rgb(126, 231, 135);
+    --form-text: black;
 }
 
 html {
@@ -924,8 +928,8 @@ a .fa-github-alt{
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
-    color: var(--text-color);
-    background: var(--bg-color);
+    color: var(--form-text);
+    background: var(--form-color);
     border-radius: .8rem;
     margin: .7rem 0;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
